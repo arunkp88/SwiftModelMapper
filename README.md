@@ -8,6 +8,7 @@ struct A: Codable {
 var id : String?
 var fName : String?
 var lName : String?
+
 }
 
 struct B: Codable {
@@ -15,6 +16,7 @@ struct B: Codable {
 var id : String?
 var fName : String?
 var lName : String?
+
 }
 
 let a = A(id: "1", "title": "Arun", "lName": "KP")
